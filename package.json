@@ -1,0 +1,24 @@
+{
+  "name": "@twoke/axios-decorators",
+  "version": "1.0.0",
+  "description": "axios decorators",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npx unbuild",
+    "dev": "ts-node examples/index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "unbuild": "^0.7.4"
+  },
+  "keywords": [
+    "axios",
+    "decorators",
+    "typescript"
+  ],
+  "author": "TwoKe",
+  "license": "MIT"
+}
