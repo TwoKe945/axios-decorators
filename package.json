@@ -1,9 +1,10 @@
 {
   "name": "@twoke/axios-decorators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "axios decorators",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": ["dist/**/*.mjs", "dist/**/*.d.ts"],
   "scripts": {
     "build": "npx unbuild",
     "dev": "ts-node examples/index.ts"
