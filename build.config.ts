@@ -4,6 +4,10 @@ export default defineBuildConfig({
   entries: [
     './src/index',
   ],
+  outDir: 'lib',
   declaration: true,
-  externals: ['axios']
+  externals: ['axios'],
+  rollup: {
+    emitCJS: true
+  }
 })
